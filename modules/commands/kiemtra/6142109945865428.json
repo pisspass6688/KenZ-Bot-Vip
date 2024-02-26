@@ -1,0 +1,92 @@
+{
+    "total": [
+        {
+            "id": "100051141638702",
+            "count": 471
+        },
+        {
+            "id": "100078871518532",
+            "count": 383
+        },
+        {
+            "id": "100086891408732",
+            "count": 189
+        },
+        {
+            "id": "100090542094608",
+            "count": 608
+        },
+        {
+            "id": "100087241632583",
+            "count": 104
+        },
+        {
+            "id": "100089560917781",
+            "count": 15
+        }
+    ],
+    "week": [
+        {
+            "id": "100051141638702",
+            "count": 14,
+            "name": "Nguyễn Lê Nhật Tân"
+        },
+        {
+            "id": "100078871518532",
+            "count": 4,
+            "name": "Hoàng Thế Vũ"
+        },
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng Facebook"
+        },
+        {
+            "id": "100090542094608",
+            "count": 23,
+            "name": "Nguyễn Phạm Ngọc Bích"
+        },
+        {
+            "id": "100087241632583",
+            "count": 8,
+            "name": "Anya Bot"
+        },
+        {
+            "id": "100089560917781",
+            "count": 15
+        }
+    ],
+    "day": [
+        {
+            "id": "100051141638702",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100078871518532",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100090542094608",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100089560917781",
+            "count": 0,
+            "name": "Người dùng facebook"
+        }
+    ],
+    "time": 2
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Kẹoo Béoo",
+    "ID": "100080423171493",
+    "mainROD": "Ultra-Quality Rod",
+    "GPS": {
+        "locate": "Europe",
+        "area": "Tây Âu"
+    },
+    "fishBag": [
+        {
+            "ID": 0,
+            "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+            "category": "Unnamed",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "point": [
+        {
+            "ID": 0,
+            "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+            "category": "Unnamed",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "item": [],
+    "timeRegister": "09:39:35 13/2/2024"
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "mirai.js": [
+      {
+        "id": "aa2a5caa-ac4c-4897-811c-4a98965939c3",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ],
+    "modules/commands/prefix.js": [
+      {
+        "id": "1749c4c6-094d-498f-b688-d7063a7aa92a",
+        "line": 12,
+        "version": 1,
+        "index": 317
+      }
+    ]
+  }
+}

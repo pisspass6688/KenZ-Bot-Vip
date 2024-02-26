@@ -1,0 +1,154 @@
+{
+  "name": "Minh Hiếu",
+  "ID": "61550174270319",
+  "mainROD": "Ultra-Quality Rod",
+  "GPS": {
+    "locate": "Europe",
+    "area": "Tây Âu"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 2,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 3,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 4,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 5,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 6,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    }
+  ],
+  "point": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 2,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 3,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 4,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 5,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 6,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    }
+  ],
+  "item": [
+    {
+      "name": "Carbonfiber Rod",
+      "price": 19600,
+      "durability": 0,
+      "countdown": 80,
+      "countdownData": 1708172462200,
+      "image": "https://i.imgur.com/6OwqXTa.png"
+    },
+    {
+      "name": "Ultra-Quality Rod",
+      "price": 58800,
+      "durability": 270,
+      "countdown": 1,
+      "countdownData": 1708270544765,
+      "image": "https://i.imgur.com/9nNjibp.png"
+    }
+  ],
+  "timeRegister": "09:47:37 17/2/2024"
+}

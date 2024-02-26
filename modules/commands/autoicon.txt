@@ -1,0 +1,46 @@
+const fs = require("fs");
+module.exports.config = {
+	name: "autocx",
+    version: "1.0.1",
+	hasPermssion: 0,
+	credits: "Nguyễn Phụ Mạnh", 
+	description: "tự thả cảm xúc tin nhắn",
+	commandCategory: "admin",
+    cooldowns: 5, 
+};
+
+module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
+	var { threadID, messageID } = event;
+	let react = event.body.toLowerCase()
+	if (event.body.indexOf("a")==0 || event.body.indexOf("A")==0 || event.body.indexOf("moa")==0 || event.body.indexOf("yeu")==0 || event.body.indexOf("iu")==0 || event.body.indexOf("baby")==0 || event.body.indexOf("🐧")==0 || event.body.indexOf("X")==0 || event.body.indexOf("B")==0 || event.body.indexOf("T")==0 || event.body.indexOf("E")==0 || event.body.indexOf("D")==0 || event.body.indexOf("hi")==0 || event.body.indexOf("🥺")==0 || event.body.indexOf("😋")==0 || event.body.indexOf("🤩")==0 || event.body.indexOf("🙄")==0 || event.body.indexOf("🤓")==0 || event.body.indexOf("☕")==0 || event.body.indexOf("🤗")==0 || event.body.indexOf("🤭")==0 || event.body.indexOf("😶")==0 ||event.body.indexOf("🥵")==0 || event.body.indexOf("😎")==0 || event.body.indexOf("🤡")==0 || event.body.indexOf("😇")==0 || event.body.indexOf("😊")==0 ||  event.body.indexOf("😏")==0 || event.body.indexOf("ỏ")==0 || event.body.indexOf("😻")==0 || event.body.indexOf("❤")==0 && !bot.includes(event.senderID))  {
+		var msg = {
+				body: ""
+			}
+			api.sendMessage(msg, threadID, messageID);
+    api.setMessageReaction("❤", event.messageID, (err) => {}, true)
+		};
+	if (event.body.indexOf("love")==0 || event.body.indexOf("hj")==0 || event.body.indexOf("2")==0 || event.body.indexOf("haii")==0 || event.body.indexOf("bot")==0 || event.body.indexOf("Love")==0 || event.body.indexOf("Hiền")==0 || event.body.indexOf("prefix")==0 || event.body.indexOf("h")==0 || event.body.indexOf("helo")==0 || event.body.indexOf("i love")==0 || event.body.indexOf("@")==0 || event.body.indexOf("Đi")==0 || event.body.indexOf("I love")==0 || event.body.indexOf("I Love")==0 || event.body.indexOf("Love")==0 || event.body.indexOf("😙")==0 || event.body.indexOf("😘")==0 || event.body.indexOf("😗")==0 || event.body.indexOf("😙")==0 || event.body.indexOf("😋")==0 || event.body.indexOf("🥰")==0 || event.body.indexOf("chill")==0 || event.body.indexOf("🧸")==0 || event.body.indexOf("Dạ")==0 || event.body.indexOf("❤")==0 || event.body.indexOf("😻")==0 || event.body.indexOf("😳")==0 && !bot.includes(event.senderID))  {
+		var msg = {
+				body: ""
+			}
+			api.sendMessage(msg, threadID, messageID);
+    api.setMessageReaction("🥰", event.messageID, (err) => {}, true)
+		};
+	if (event.body.indexOf("sad")==0 || event.body.indexOf("Sad")==0 || event.body.indexOf(":(")==0 || event.body.indexOf("huhu")==0 || event.body.indexOf("Huhu")==0 || event.body.indexOf("=((")==0 || event.body.indexOf(":((")==0 || event.body.indexOf("😞")==0 || event.body.indexOf("😨")==0 || event.body.indexOf("😥")==0 || event.body.indexOf("😭")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😢")==0 || event.body.indexOf("😕")==0 || event.body.indexOf("😑")==0 || event.body.indexOf("😩")==0 || event.body.indexOf("😰")==0 || event.body.indexOf("😟")==0 || event.body.indexOf("😦")==0 || event.body.indexOf("bùn")==0 || event.body.indexOf("sầu")==0 || event.body.indexOf("buồn")==0 || event.body.indexOf("haizzz")==0 || event.body.indexOf("haizz")==0 || event.body.indexOf("ừ")==0 || event.body.indexOf("cút")==0 || event.body.indexOf("lồn")==0 || event.body.indexOf("sồu")==0 || event.body.indexOf("con")==0 && !bot.includes(event.senderID))  {
+		var msg = {
+				body: ""
+			}
+			api.sendMessage(msg, threadID, messageID);
+    api.setMessageReaction("😢", event.messageID, (err) => {}, true)
+		};
+	if (event.body.indexOf("bot")==0 || event.body.indexOf("Bot")==0 || event.body.indexOf("haha")==0 || event.body.indexOf("Haha")==0 || event.body.indexOf("hi")==0 || event.body.indexOf("Hi")==0 || event.body.indexOf("hello")==0 || event.body.indexOf("Hello")==0 || event.body.indexOf("kkk")==0 || event.body.indexOf("hahaha")==0 || event.body.indexOf("Ngu")==0 ||event.body.indexOf("=))")==0 || event.body.indexOf("=)))")==0 || event.body.indexOf(":))")==0 || event.body.indexOf(":)")==0 || event.body.indexOf("😅")==0 || event.body.indexOf("😆")==0 || event.body.indexOf("😂")==0 || event.body.indexOf("🤣")==0 || event.body.indexOf("ngu")==0 || event.body.indexOf(":)))")==0 || event.body.indexOf("Cc")==0 || event.body.indexOf("cc")==0 || event.body.indexOf("clm")==0 || event.body.indexOf("cmm")==0 || event.body.indexOf("chó")==0 || event.body.indexOf("đmm")==0 || event.body.indexOf("ơ")==0 && !bot.includes(event.senderID))  {
+		var msg = {
+				body: ""
+			}
+			api.sendMessage(msg, threadID, messageID);
+    api.setMessageReaction("😆", event.messageID, (err) => {}, true)
+		}
+	}
+	module.exports.run = function({ api, event, client, __GLOBAL }) {
+
+  }

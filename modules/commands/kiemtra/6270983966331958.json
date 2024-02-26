@@ -1,0 +1,135 @@
+{
+    "total": [
+        {
+            "id": "100036780755094",
+            "count": 17
+        },
+        {
+            "id": "100037412140563",
+            "count": 0
+        },
+        {
+            "id": "100055450561313",
+            "count": 0
+        },
+        {
+            "id": "100074175636811",
+            "count": 0
+        },
+        {
+            "id": "100080232228866",
+            "count": 5
+        },
+        {
+            "id": "100081998649423",
+            "count": 0
+        },
+        {
+            "id": "100087241632583",
+            "count": 17
+        },
+        {
+            "id": "100088127233749",
+            "count": 0
+        },
+        {
+            "id": "100005216506611",
+            "count": 7
+        }
+    ],
+    "week": [
+        {
+            "id": "100036780755094",
+            "count": 0,
+            "name": "Trần Thị Quỳnh Nhi"
+        },
+        {
+            "id": "100037412140563",
+            "count": 0,
+            "name": "Khangg Trầnn"
+        },
+        {
+            "id": "100055450561313",
+            "count": 0,
+            "name": "Trung Huy"
+        },
+        {
+            "id": "100074175636811",
+            "count": 0,
+            "name": "Hoàng Thịnh"
+        },
+        {
+            "id": "100080232228866",
+            "count": 0,
+            "name": "Nguyễn Quế"
+        },
+        {
+            "id": "100081998649423",
+            "count": 0,
+            "name": "Lê Công Toàn"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Anya Bot"
+        },
+        {
+            "id": "100088127233749",
+            "count": 0,
+            "name": "Đặng Thiên Vũ"
+        },
+        {
+            "id": "100005216506611",
+            "count": 0,
+            "name": "Nguyễn Việt Hứa"
+        }
+    ],
+    "day": [
+        {
+            "id": "100036780755094",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100037412140563",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100055450561313",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100074175636811",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100080232228866",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100081998649423",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100088127233749",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100005216506611",
+            "count": 0,
+            "name": "Người dùng facebook"
+        }
+    ],
+    "time": 2
+}

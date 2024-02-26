@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: qs.parse is not a function<br> &nbsp; &nbsp;at parseExtendedQueryString (/home/runner/API-TPK2/node_modules/express/lib/utils.js:290:13)<br> &nbsp; &nbsp;at query (/home/runner/API-TPK2/node_modules/express/lib/middleware/query.js:42:19)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/home/runner/API-TPK2/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/home/runner/API-TPK2/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /home/runner/API-TPK2/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/home/runner/API-TPK2/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/home/runner/API-TPK2/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at Function.handle (/home/runner/API-TPK2/node_modules/express/lib/router/index.js:175:3)<br> &nbsp; &nbsp;at Function.handle (/home/runner/API-TPK2/node_modules/express/lib/application.js:181:10)</pre>
+</body>
+</html>

@@ -1,0 +1,42 @@
+module.exports.config = {
+    name: "trungthu",
+    version: "1.0.0",
+    hasPermssion: 3,
+    credits: "Horizon Lucius Synthesis I",
+    description: "",
+    commandCategory: "Admin bot",
+    usages: "allbox",
+    cooldowns: 0,
+    dependencies: [] 
+    };
+    var array = [];
+module.exports.run = async function ({ api,event,Users,Currencies,args,utils }) {
+      const thinh = ["Quà Kết Thúc Trung Thu Hôm Nay, Chúc Ai Có Người Yêu Thì Cuối Năm Cưới. Ai Chưa Người Yêu Thì Ngồi Nhà 1 Mình Tự Xử Nha . Lần Cuối Xin Cảm Ơn Đại Gia Đình Anya Trung Thu Vui Và Mạnh Khỏe"
+
+    ];
+  let name = await Users.getNameUser(event.senderID)
+   const permission = ["10003564533212"];
+  if (!permission.includes(event.senderID));
+  const moment = require("moment");
+	var time = moment.tz("Asia/Ho_Chi_minh").format("HH:MM:ss L"); 
+    var x = global.data.allCurrenciesID;var out = (msg) => api.sendMessage(msg,event.threadID,event.messageID);
+        let ix = Math.floor(Math.random() * 20000000000000) + 1; 
+        let rxxi = global.data.allThreadID;var xs = false;
+        var mention = Object.keys(event.mentions);
+        switch (args[0]) {
+           case 'allbox': {
+              if (xs == true) return out("tặng quà rồi");
+              for (let ex of x) {
+        await Currencies.increaseMoney(ex, parseInt(ix));
+                array.push(ex);
+                            }
+                for (let exs of rxxi) {
+        api.sendMessage(`》》𝙌𝙪𝙖̀ 𝙏𝙧𝙪𝙣𝙜 𝙏𝙝𝙪 𝙉𝙜𝙖̀𝙮 𝟭𝟬/𝟬𝟵/𝟮𝟬𝟮𝟮《《 \n\nVào lúc: ${time}\n🎁 Nhóm Bạn Đã Được Admin tặng quà trung thu gồm:\n💵 20 Tỷ Tiền Mặt Và 1 Cái Hôn Từ Admin\n💌 Anya: ${thinh[Math.floor(Math.random() * thinh.length)]}\n🎀 Chúc các bạn sử dụng BOT vui vẻ 🎀 `,exs,(error,info) => {
+              if (error) return;
+        });
+                }
+                 xs = true;
+            return api.sendMessage("Đã gửi quà đến all box thành công",event.threadID);                      
+           }
+        }
+    };

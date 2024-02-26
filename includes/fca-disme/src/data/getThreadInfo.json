@@ -1,0 +1,107 @@
+[
+    {
+        "data": {
+            "threadID": "7200543603324534",
+            "threadName": null,
+            "participantIDs": [
+                "61554430132432",
+                "100047152010637",
+                "100059538169739",
+                "100066990987283"
+            ],
+            "userInfo": [
+                {
+                    "id": "61554430132432",
+                    "name": "Yue Yunnie",
+                    "firstName": "Yue",
+                    "vanity": "",
+                    "thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/407124341_122094015938147671_1207666532919923807_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=102&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeEWBnT3O_Xz1rQ1SpKneIOnsvO6KyMrfROy87orIyt9E6wMjGz9nV_ddkOvmkPU3m3avr6kPUU3pNK9-FHQ6eYE&_nc_ohc=lr9rwu5wVOoAX-H0_Ea&_nc_ht=scontent-iad3-2.xx&oh=00_AfDw1kLKrtYtQig9AdBhe9bfJNMpJbZPVcwskuinzo2hOw&oe=658CFBC3",
+                    "profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/407124341_122094015938147671_1207666532919923807_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=102&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeEWBnT3O_Xz1rQ1SpKneIOnsvO6KyMrfROy87orIyt9E6wMjGz9nV_ddkOvmkPU3m3avr6kPUU3pNK9-FHQ6eYE&_nc_ohc=lr9rwu5wVOoAX-H0_Ea&_nc_ht=scontent-iad3-2.xx&oh=00_AfDw1kLKrtYtQig9AdBhe9bfJNMpJbZPVcwskuinzo2hOw&oe=658CFBC3",
+                    "gender": "FEMALE",
+                    "type": "User",
+                    "isFriend": false,
+                    "isBirthday": false
+                },
+                {
+                    "id": "100047152010637",
+                    "name": "Kiên Nguyễn 🌸✔️",
+                    "firstName": "Kiên 🌸✔️",
+                    "vanity": "baoansupport.2000",
+                    "thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?stp=cp0_dst-png_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_eui2=AeGyViJia0dp0U5HUfIJLUT4so2H55p0AlGyjYfnmnQCUWKUunowZsZtjm7Eqw9tVukDKSkF2WQSjvUzN4xokLqN&_nc_ohc=WBNISUE6G2AAX9xoJOg&_nc_ht=scontent-iad3-2.xx&oh=00_AfA5bm3NExRGGxz18fcOmvtK8RTPdTRth8RbqbWUBOJT3Q&oe=65AF2AB8",
+                    "profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?stp=cp0_dst-png_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_eui2=AeGyViJia0dp0U5HUfIJLUT4so2H55p0AlGyjYfnmnQCUWKUunowZsZtjm7Eqw9tVukDKSkF2WQSjvUzN4xokLqN&_nc_ohc=WBNISUE6G2AAX9xoJOg&_nc_ht=scontent-iad3-2.xx&oh=00_AfA5bm3NExRGGxz18fcOmvtK8RTPdTRth8RbqbWUBOJT3Q&oe=65AF2AB8",
+                    "gender": "MALE",
+                    "type": "User",
+                    "isFriend": true,
+                    "isBirthday": false
+                },
+                {
+                    "id": "100059538169739",
+                    "name": "Kiên Nguyễn",
+                    "firstName": "Nguyễn",
+                    "vanity": "nangyeuvanh",
+                    "thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/329702328_1556240301465862_7625561368062826155_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeEsEIa-Pit8Vat_W2s2vMGCo1PYtq3qlc6jU9i2reqVzkXRwvfcMjmSGY_uyL4ZCzM9t9RJJHlnJQu_UKNCxTWi&_nc_ohc=SX89LwVcPhYAX8yqSpf&_nc_ht=scontent-iad3-2.xx&oh=00_AfAa_yo8jjHPxGoMkbt04u66TOfaKZyzarCtKZbDG0-uYw&oe=658BC587",
+                    "profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/329702328_1556240301465862_7625561368062826155_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeEsEIa-Pit8Vat_W2s2vMGCo1PYtq3qlc6jU9i2reqVzkXRwvfcMjmSGY_uyL4ZCzM9t9RJJHlnJQu_UKNCxTWi&_nc_ohc=SX89LwVcPhYAX8yqSpf&_nc_ht=scontent-iad3-2.xx&oh=00_AfAa_yo8jjHPxGoMkbt04u66TOfaKZyzarCtKZbDG0-uYw&oe=658BC587",
+                    "gender": "MALE",
+                    "type": "User",
+                    "isFriend": false,
+                    "isBirthday": false
+                },
+                {
+                    "id": "100066990987283",
+                    "name": "Bảo An",
+                    "firstName": "Bảo",
+                    "vanity": "hotrobotmess",
+                    "thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/361285677_589646353278392_1967191791773414381_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=108&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeHS9WkZbYO_H5yrJ7L4C1wvtdciRtv8FNW11yJG2_wU1ekXi3gMubUb3LpO8ntvjekvonjbMkU6tl83eSGNvXva&_nc_ohc=50KpQKuNOMIAX9tZ18l&_nc_ht=scontent-iad3-2.xx&oh=00_AfAX6BKJLhZMS3MOqe8hipQBQtY2xhp-rkWCY6B1L7-Hug&oe=658BEC2B",
+                    "profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/361285677_589646353278392_1967191791773414381_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=108&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeHS9WkZbYO_H5yrJ7L4C1wvtdciRtv8FNW11yJG2_wU1ekXi3gMubUb3LpO8ntvjekvonjbMkU6tl83eSGNvXva&_nc_ohc=50KpQKuNOMIAX9tZ18l&_nc_ht=scontent-iad3-2.xx&oh=00_AfAX6BKJLhZMS3MOqe8hipQBQtY2xhp-rkWCY6B1L7-Hug&oe=658BEC2B",
+                    "gender": "MALE",
+                    "type": "User",
+                    "isFriend": false,
+                    "isBirthday": false
+                }
+            ],
+            "unreadCount": 28,
+            "messageCount": 95,
+            "timestamp": "1703390652677",
+            "muteUntil": null,
+            "isGroup": true,
+            "isSubscribed": true,
+            "isArchived": false,
+            "folder": "INBOX",
+            "cannotReplyReason": null,
+            "eventReminders": [],
+            "emoji": null,
+            "color": null,
+            "nicknames": {},
+            "adminIDs": [
+                {
+                    "id": "61554430132432"
+                },
+                {
+                    "id": "100047152010637"
+                }
+            ],
+            "approvalMode": false,
+            "approvalQueue": [],
+            "reactionsMuteMode": "reactions_not_muted",
+            "mentionsMuteMode": "mentions_not_muted",
+            "isPinProtected": false,
+            "relatedPageThread": null,
+            "name": null,
+            "snippet": "/help",
+            "snippetSender": "100047152010637",
+            "snippetAttachments": [],
+            "serverTimestamp": "1703390652677",
+            "imageSrc": null,
+            "isCanonicalUser": false,
+            "isCanonical": false,
+            "recipientsLoadable": true,
+            "hasEmailParticipant": false,
+            "readOnly": false,
+            "canReply": true,
+            "lastMessageType": "message",
+            "lastReadTimestamp": "1703325319152",
+            "threadType": 2
+        },
+        "time": 1703390652996
+    }
+]

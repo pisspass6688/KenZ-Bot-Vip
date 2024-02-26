@@ -1,0 +1,64 @@
+{
+  "name": "Khăn Ấm",
+  "ID": "100079421167203",
+  "mainROD": "Ultra-Quality Rod",
+  "GPS": {
+    "locate": "Asia",
+    "area": "Đông Nam Á"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Cá Rô Phi",
+      "category": "Common",
+      "size": 32,
+      "weight": 1200,
+      "sell": 150,
+      "image": "https://i.imgur.com/RHHZDz0.png"
+    }
+  ],
+  "point": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Cá Rô Phi",
+      "category": "Common",
+      "size": 32,
+      "weight": 1200,
+      "sell": 150,
+      "image": "https://i.imgur.com/RHHZDz0.png"
+    }
+  ],
+  "item": [
+    {
+      "name": "Titanium Rod",
+      "price": 6400,
+      "durability": 50,
+      "countdown": 150,
+      "countdownData": 1708173807069,
+      "image": "https://i.imgur.com/MtqsiZm.png"
+    },
+    {
+      "name": "Ultra-Quality Rod",
+      "price": 58800,
+      "durability": 420,
+      "countdown": 40,
+      "countdownData": 1708176420749,
+      "image": "https://i.imgur.com/9nNjibp.png"
+    }
+  ],
+  "timeRegister": "19:21:53 17/2/2024"
+}

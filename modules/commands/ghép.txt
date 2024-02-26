@@ -1,0 +1,96 @@
+module.exports.config = {
+  name: "ghép",
+  version: "1.0.0", 
+  hasPermssion: 0,
+  credits: "M-Drasew", 
+  description: "Ghép đôi cùng người lạ",
+  commandCategory: "Tình yêu ~ Love", 
+  usages: "ghép", 
+  cooldowns: 22
+};
+module.exports.run = async ({ api, event, handleReply, Users, Currencies }) => {
+const { threadID, messageID, senderID } = event;
+var data = await Currencies.getData(event.senderID);
+var money = data.money
+if( money < 1000) api.sendMessage(`Bạn muốn ghép đôi à kiếm đủ 1000 đô bot mới ghép cho nhé\nVí dụ các lệnh kiếm ra tiền work,daily,....\nSố tiền bạn hiện có: ${money} đô`,threadID,messageID)
+  else {
+  Currencies.setData(event.senderID, options = {money: money - 1000})
+	return api.sendMessage(`Chuẩn bị ghép đôi thành công!\n\nReply tin nhắn này chọn giới tính người mà bạn muốn ghép đôi "Trai hoặc "Gái"\n\nLưu ý mỗi lần ghép đôi mất 1000 đô`, event.threadID, (error, info) => {
+        global.client.handleReply.push({
+            type: "ghép",
+            name: this.config.name,
+            author: event.senderID,
+            messageID: info.messageID
+        })  
+     })
+   }
+}
+module.exports.handleReply = async ({ api, event, handleReply, Users, Currencies }) => {
+var token = `6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+const axios = global.nodemodule["axios"];
+const fs = global.nodemodule["fs-extra"];
+const tile = (Math.random() * 50)+50;
+const { threadID, messageID, senderID } = event;
+const random = ["Chúc 2 bạn trăm năm hạnh phúc", "Chúc 2 bạn hạnh fuck", "Chúc 2 bạn hạnh phúc.!"];
+    switch(handleReply.type) {
+        case "ghép": {
+          switch(event.body) {
+					case "Trai": {
+						api.unsendMessage(handleReply.messageID);
+						api.sendMessage(`Đang tìm đối tượng phù hợp với bạn!....`,event.threadID);
+            var ThreadInfo = await api.getThreadInfo(event.threadID);
+            var all = ThreadInfo.userInfo
+            let data = [];
+            for (let male of all) {
+                if (male.gender == "MALE") {
+                 if ( male != event.senderID) data.push(male.id)   
+                }
+            }
+          let member = data[Math.floor(Math.random() * data.length)]
+          let n = (await Users.getData(member)).name
+          const url = api.getCurrentUserID(member);
+          let Avatar_boy = (await axios.get(`https://graph.facebook.com/${member}/picture?height=1500&width=1500&access_token=`+token, { responseType: "arraybuffer" } )).data; 
+            fs.writeFileSync( __dirname + `/cache/avt1.png`, Buffer.from(Avatar_boy, "utf-8") );
+          let name = await Users.getNameUser(handleReply.author);
+          let Avatar_author = (await axios.get( `https://graph.facebook.com/${handleReply.author}/picture?width=512&height=512&access_token=`+token, { responseType: "arraybuffer" } )).data;
+            fs.writeFileSync( __dirname + "/cache/avt2.png", Buffer.from(Avatar_author, "utf-8") );
+           var arraytag = [];
+                arraytag.push({id: handleReply.author, tag: name});
+                arraytag.push({id: member, tag: n});
+           var imglove = []; 
+              imglove.push(fs.createReadStream(__dirname + "/cache/avt1.png"));
+              imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
+           var msg = {body: `🍎🍓 Ghép đôi thành công 🍓🍎\n💟 ${random[Math.floor(Math.random() * random.length)]}\n💗 Tỉ lệ hợp đôi: ${tile.toFixed(2)}%\n`+n+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}
+        return api.sendMessage(msg, event.threadID, event.messageID);
+          } break;
+          case "Gái": {
+						api.unsendMessage(handleReply.messageID);
+						api.sendMessage(`Đang tìm đối tượng phù hợp với bạn!....`,event.threadID);
+            var ThreadInfo = await api.getThreadInfo(event.threadID);
+            var all = ThreadInfo.userInfo
+            let data = [];
+            for (let female of all) {
+                if (female.gender == "FEMALE") {
+                 if ( female != event.senderID) data.push(female.id)   
+                }
+            }
+          let member = data[Math.floor(Math.random() * data.length)]
+          let n = (await Users.getData(member)).name
+          let Avatar_girl = (await axios.get(`https://graph.facebook.com/${member}/picture?height=1500&width=1500&access_token=`+token, { responseType: "arraybuffer" } )).data; 
+            fs.writeFileSync( __dirname + `/cache/avt1.png`, Buffer.from(Avatar_girl, "utf-8") );
+          let name = await Users.getNameUser(handleReply.author);
+          let Avatar_author = (await axios.get( `https://graph.facebook.com/${handleReply.author}/picture?width=512&height=512&access_token=`+token, { responseType: "arraybuffer" } )).data;
+            fs.writeFileSync( __dirname + "/cache/avt2.png", Buffer.from(Avatar_author, "utf-8") );
+           var arraytag = [];
+                arraytag.push({id: handleReply.author, tag: name});
+                arraytag.push({id: member, tag: n});
+           var imglove = []; 
+              imglove.push(fs.createReadStream(__dirname + "/cache/avt1.png"));
+              imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
+           var msg = {body: `🌼🍋 Ghép đôi thành công 🍋🌼\n️🎉 ${random[Math.floor(Math.random() * random.length)]}\n🔔 Tỉ lệ  hợp đôi: ${tile.toFixed(2)}%\n`+n+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}
+        return api.sendMessage(msg, event.threadID, event.messageID);
+          } break;
+        }
+      }
+    }
+}

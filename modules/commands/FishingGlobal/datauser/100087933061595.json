@@ -1,0 +1,74 @@
+{
+  "name": "Tùng IA",
+  "ID": "100087933061595",
+  "mainROD": "Ultra-Quality Rod",
+  "GPS": {
+    "locate": "Europe",
+    "area": "Tây Âu"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 2,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    }
+  ],
+  "point": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    },
+    {
+      "ID": 2,
+      "name": "Common Bass",
+      "category": "Common",
+      "size": 98,
+      "weight": 5000,
+      "sell": 200,
+      "image": "https://i.imgur.com/njUprtC.png"
+    }
+  ],
+  "item": [
+    {
+      "name": "Ultra-Quality Rod",
+      "price": 58800,
+      "durability": 400,
+      "countdown": 40,
+      "countdownData": 1708139808729,
+      "image": "https://i.imgur.com/9nNjibp.png"
+    }
+  ],
+  "timeRegister": "00:06:56 13/2/2024"
+}

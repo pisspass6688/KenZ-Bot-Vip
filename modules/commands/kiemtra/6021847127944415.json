@@ -1,0 +1,51 @@
+{
+    "total": [
+        {
+            "id": "100072110689793",
+            "count": 2609
+        },
+        {
+            "id": "100077260516202",
+            "count": 0
+        },
+        {
+            "id": "100086891408732",
+            "count": 18
+        }
+    ],
+    "week": [
+        {
+            "id": "100072110689793",
+            "count": 0,
+            "name": "Vanhh Yuta"
+        },
+        {
+            "id": "100077260516202",
+            "count": 0,
+            "name": "Vanh Dayy"
+        },
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng Facebook"
+        }
+    ],
+    "day": [
+        {
+            "id": "100072110689793",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100077260516202",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng facebook"
+        }
+    ],
+    "time": 2
+}

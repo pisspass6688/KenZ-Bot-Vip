@@ -1,0 +1,38 @@
+{
+  "name": "Kiên Nguyễn 🌸✔️",
+  "ID": "100047152010637",
+  "mainROD": "Ultra-Quality Rod",
+  "GPS": {
+    "locate": null,
+    "area": null
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    }
+  ],
+  "point": [
+    {
+      "ID": 0,
+      "name": "Đừng bán con cá này ko là lỗi tao đéo chịu trách nhiệm đâu",
+      "category": "Unnamed",
+      "size": 999999,
+      "sell": 0
+    }
+  ],
+  "item": [
+    {
+      "name": "Ultra-Quality Rod",
+      "price": 58800,
+      "durability": 450,
+      "countdown": 40,
+      "countdownData": null,
+      "image": "https://i.imgur.com/9nNjibp.png"
+    }
+  ],
+  "timeRegister": "23:59:13 12/2/2024"
+}

@@ -1,0 +1,51 @@
+{
+    "total": [
+        {
+            "id": "100072110689793",
+            "count": 806
+        },
+        {
+            "id": "100077260516202",
+            "count": 0
+        },
+        {
+            "id": "100087241632583",
+            "count": 3
+        }
+    ],
+    "week": [
+        {
+            "id": "100072110689793",
+            "count": 802,
+            "name": "Vanhh Yuta"
+        },
+        {
+            "id": "100077260516202",
+            "count": 0,
+            "name": "Vanh Dayy"
+        },
+        {
+            "id": "100087241632583",
+            "count": 3,
+            "name": "Anya Bot"
+        }
+    ],
+    "day": [
+        {
+            "id": "100072110689793",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100077260516202",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Người dùng facebook"
+        }
+    ],
+    "time": 2
+}

@@ -1,0 +1,110 @@
+module.exports.config = {
+    name: "chửi anya",
+    version: "1.0.0",
+    hasPermssion: 0,
+    credits: "Bảo An",
+    description: "Đừng có chửi không bị chửi lại thì dỗi",
+    commandCategory: "Tự động",
+    usages: "",
+    cooldowns: 2,
+    denpendencies: {}
+};
+
+module.exports.handleReply = async function({ api, args, Users, event, handleReply }) {
+    var name = await Users.getNameUser(event.senderID);
+    switch (handleReply.type) {
+        case "reply":
+            {
+                var idad = global.config.ADMINBOT;
+                for (let ad of idad) {
+                    api.sendMessage({
+                        body: "Tin nhắn từ 💜" + name + ":\n" + event.body,
+                        mentions: [{
+                            id: event.senderID,
+                            tag: name
+                        }]
+                    }, ad, (e, data) => global.client.handleReply.push({
+                        name: this.config.name,
+                        messageID: data.messageID,
+                        messID: event.messageID,
+                        author: event.senderID,
+                        id: event.threadID,
+                        type: "goibot"
+                    }))
+                }
+                break;
+            }
+        case "goibot":
+            {
+                api.sendMessage({ body: `${event.body}`, mentions: [{ tag: name, id: event.senderID }] }, handleReply.id, (e, data) => global.client.handleReply.push({
+                    name: this.config.name,
+                    author: event.senderID,
+                    messageID: data.messageID,
+                    type: "reply"
+                }), handleReply.messID);
+                break;
+            }
+    }
+};
+
+
+module.exports.handleEvent = async({ event, api, Users, Threads }) => {
+    var { threadID, messageID, body, senderID } = event;
+    if (senderID == global.data.botID) return;
+
+    const moment = require("moment-timezone");
+    var time = moment.tz("Asia/Ho_Chi_Minh").format("HH:mm:ss D/MM/YYYY");
+    let name = await Users.getNameUser(event.senderID);
+    var idbox = event.threadID;
+    let uidUser = event.senderID;
+    let dataThread = await Threads.getData(event.threadID);
+    let threadInfo = dataThread.threadInfo;
+    const listAdmin = global.config.ADMINBOT;
+
+    var tl = [
+        `Ê ${name}` + ",chửi cái con cặc thích đánh nhau à",
+        `Ê ${name}` + ",đánh nhau không ?",
+        `Con mẹ ${name}` + ",m chửi lại tao nghe cái nào",
+      `Bố lại đánh cho con chó ${name}` + ",m chửi ai thế",   
+      `M biết tao là ai không con chó ${name}` + ",t là đàn em của anh Trà Mi đó",
+      `Chửi cái c` + "cccccccc",
+      `Mày bảo tao giả tạo. Ừ thì tao giả tạo nhưng chắc chắn một điều rằng sự giả tạo của tao chưa thành thạo và khốn nạn như mày`,
+      `Đừng nên cắn sau lưng người khác. Bởi trời mà quả báo thì dùng ăn cháo cũng gãy răng`,
+      `Người ta đội mũ bảo hiểm để bảo vệ não. Thế nhưng không biết đứa không có não đội mũ bảo hiểm làm gì cho nóng đầu`,
+      `Thử hỏi xem vở kịch bạn diễn có bao nhiêu khán giả để bạn phải tận tâm vất vả vào vai? Để rồi ai sẽ trả cát xê cho bạn mà niềm đam mê diễn xuất của bạn lại lớn đến thế?`,
+      `Trông bạn khá giống búp bê đấy. Nhưng bạn à búp bê thì không có não mà chỉ là toàn nhựa dẻo mà thôi`,
+      `Tao ghét nhất cái thể loại nhìn tao bằng bằng mắt xanh mắt đỏ rồi chỉ trỏ sau lưng. Nhưng hãy nhìn lại bản thân đi liệu mày đã bằng được tạo hay chưa?`,
+      `Người thì như cái chậu mà lúc nào cũng nghĩ mình là hoa hậu. Tốt nhất hãy xem lại bản thân để không bị người ta chê cười.`
+    ];
+    var rand = tl[Math.floor(Math.random() * tl.length)];
+    // Gọi bot
+    var arr = ["bot ngu", "bot cặc","bot rác",  "bot cùi", "bot như cc", "bot óc", "bot lỏ","bot gà","bot ngáo","bot đần","bot thúi","bot ngáo"];
+    arr.forEach(value => {
+        let str = value[0].toUpperCase() + value.slice(1);
+    if (body === value.toUpperCase() | body === value | str === body) {
+            let nameT = threadInfo.threadName;
+            modules = "------ Chửi bot ------\n";
+            console.log(modules, value + "|", nameT);
+            api.sendMessage(rand, threadID, () => {
+                var idad = listAdmin;
+                for (var idad of listAdmin) {
+                    api.sendMessage(`=== Bot Notification ===\n\n👥Box Name: ${nameT}\n🔰ID box: ${idbox}\n💖Name User: ${name} \n💕ID User: ${uidUser}\n🕒Time: ${time}\nCâu chửi là: ${value}`,
+                        idad, (error, info) =>
+                        global.client.handleReply.push({
+                            name: this.config.name,
+                            author: senderID,
+                            messageID: info.messageID,
+                            messID: messageID,
+                            id: idbox,
+                            type: "goibot"
+                        })
+                    );
+                }
+            });
+        }
+    });
+}
+
+module.exports.run = async({ event, api }) => {
+    return api.sendMessage("( \\_/)                                                                            ( •_•)                                                                            // >🧠                                                            Đưa não cho bạn lắp vào đầu nè.\nCó biết là lệnh Noprefix hay không?", event.threadID)
+}

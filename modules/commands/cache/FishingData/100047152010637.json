@@ -1,0 +1,156 @@
+{
+    "fishingrod": {
+        "rodType": 5,
+        "enchantRod": {},
+        "rodName": "Emerald fishing rod",
+        "cooldownTime": 20,
+        "durabilityDefault": 700,
+        "durability": 522,
+        "moneyFix": 206,
+        "rateBroken": [
+            20,
+            150
+        ]
+    },
+    "inventory": [
+        {
+            "name": "Killifish",
+            "rarity": "Uncommon",
+            "price": 30,
+            "size": [
+                4,
+                5
+            ],
+            "time": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "Zebra Turkeyfish",
+            "rarity": "Common",
+            "price": 50,
+            "size": [
+                28,
+                32
+            ],
+            "time": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "Black Bass",
+            "rarity": "Very Common",
+            "price": 40,
+            "size": [
+                50,
+                100
+            ],
+            "time": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        },
+        {
+            "name": "Empty",
+            "size": 0,
+            "price": 0
+        }
+    ],
+    "lastTimeFishing": 1708273143,
+    "point": 120,
+    "totalMoney": 0,
+    "totalCatch": 3
+}

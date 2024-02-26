@@ -1,0 +1,64 @@
+{
+    "total": [
+        {
+            "id": "100086891408732",
+            "count": 38
+        },
+        {
+            "id": "100036780755094",
+            "count": 4
+        },
+        {
+            "id": "100087241632583",
+            "count": 5
+        },
+        {
+            "id": "61555955791658",
+            "count": 2
+        }
+    ],
+    "week": [
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng Facebook"
+        },
+        {
+            "id": "100036780755094",
+            "count": 0,
+            "name": "Trần Thị Quỳnh Nhi"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Anya Bot"
+        },
+        {
+            "id": "61555955791658",
+            "count": 2
+        }
+    ],
+    "day": [
+        {
+            "id": "100086891408732",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100036780755094",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "100087241632583",
+            "count": 0,
+            "name": "Người dùng facebook"
+        },
+        {
+            "id": "61555955791658",
+            "count": 1,
+            "name": "Miu Tuyet"
+        }
+    ],
+    "time": 2
+}
