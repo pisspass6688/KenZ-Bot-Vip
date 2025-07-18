@@ -1,13 +1,13 @@
 {
   "HL-08.58": {
-    "loại_hình": "BT ở",
-    "diện_tích_đất": "122.4m²",
-    "mặt_tiền": "~8m",
-    "hướng": "Đông Nam",
-    "giá_thanh_toán_sớm": "7.288 TỶ",
-    "vốn_vay_ngân_hàng": "9.053 TỶ",
-    "giá_theo_tiến_độ_chuẩn": "8.284 TỶ",
-    "phân_khu": "Sông Town",
-    "hình_ảnh": "https://link-to-image.png"
+    "type": "BT ở",
+    "land_area": "122.4m²",
+    "frontage": "~8m",
+    "direction": "Đông Nam",
+    "early_payment_price": "7.288 TỶ",
+    "bank_loan": "9.053 TỶ",
+    "standard_schedule_price": "8.284 TỶ",
+    "zone": "Sông Town",
+    "image": "https://link-to-image.png"
   }
 }
