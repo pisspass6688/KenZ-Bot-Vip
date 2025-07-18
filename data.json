@@ -2,12 +2,13 @@
   "HL-08.58": {
     "type": "BT ở",
     "land_area": "122.4m²",
+    "landhome_area": "122.4m²",
     "frontage": "~8m",
     "direction": "Đông Nam",
     "early_payment_price": "7.288 TỶ",
     "bank_loan": "9.053 TỶ",
     "standard_schedule_price": "8.284 TỶ",
     "zone": "Sông Town",
-    "image": "https://link-to-image.png"
+    "image": "https://i.ibb.co/0R8386C4/image.png"
   }
 }
